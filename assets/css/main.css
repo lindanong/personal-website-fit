@@ -7,6 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+img {
+	border-radius: 10%;
+	top: 150px;
+	left: 25px;
+	position: absolute;
+
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -18,8 +27,8 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 10;
+	padding: 10;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -903,8 +912,8 @@ input, select, textarea {
 			object-fit: cover;
 			display: block;
 			position: absolute;
-			top: 0;
-			left: 0;
+			top: 10;
+			left: 10;
 			width: 100%;
 			height: 100%;
 		}
@@ -970,6 +979,7 @@ input, select, textarea {
 			-webkit-object-position: center;
 			-ms-object-position: center;
 			object-position: center;
+			border: 5px
 		}
 
 		.image[data-position="25% 25%"] img {
@@ -1362,12 +1372,13 @@ input, select, textarea {
 
 	ul.contact-icons {
 		list-style: none;
-		padding-left: 0;
+		padding-left: 10%;
 	}
 
 		ul.contact-icons > li {
 			margin: 1.25rem 0 0 0;
 			padding-left: 0;
+			padding-top: 20%;
 		}
 
 			ul.contact-icons > li:before {
