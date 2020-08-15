@@ -7,13 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-img {
+#profilepic {
+	
+	margin-top: 150px;
+	left: 20px;
 	border-radius: 10%;
-	top: 150px;
-	left: 25px;
-	position: absolute;
 
 }
+
+
 
 
 html, body, div, span, applet, object,
@@ -2206,8 +2208,9 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #d4964f73 20%, #5d8de61e 60%, #c65edb8a);
 				background-size: 128px 128px, auto;
+				background-color: #ce7bc0;
 			}
 
 			.panel > *.color1 {
@@ -2217,9 +2220,9 @@ input, select, textarea {
 			}
 
 			.panel > *.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #d3832873 20%, #397f9b3b 60%, #a234b88a);
 				background-size: 128px 128px, auto;
-				background-color: #e37b7c;
+				background-color: #f58cde;
 			}
 
 			.panel > *.color3 {
